@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deps/bop_toolkit_challenge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deps/bop_toolkit_cosypose" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deps/bullet3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deps/job-runner" vcs="Git" />
+  </component>
+</project>
