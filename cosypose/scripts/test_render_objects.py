@@ -2,11 +2,12 @@ import numpy as np
 from cosypose.rendering.bullet_scene_renderer import BulletSceneRenderer
 from tqdm import tqdm
 import torch
-
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 if __name__ == '__main__':
     # obj_ds_name = 'hb'
-    obj_ds_name = 'itodd'
+    obj_ds_name = 'ycbv'
     renderer = BulletSceneRenderer(obj_ds_name, gpu_renderer=True)
     TCO = torch.tensor([
         [0, 1, 0, 0],
